@@ -2,7 +2,7 @@ import axios from "axios";
 import { ref } from "vue";
 
 const instance = axios.create({
-    baseURL:'https://opentdb.com/api_category.php',
+    baseURL:'https://opentdb.com/',
 })
 
 const categories = ref([])
