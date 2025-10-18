@@ -6,7 +6,7 @@ import BaseTitle from '@/components/BaseTitle.vue';
 
 const api = useAPI()
 const question = ref(null)
-const route = useRoute
+const route = useRoute()
 const answers = ref([])
 
 onMounted(async () => {
